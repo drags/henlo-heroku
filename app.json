@@ -1,0 +1,8 @@
+{
+  "name": "henlo-heroku",
+  "description": "pipeline test app",
+  "repository": "https://github.com/drags/henlo-heroku",
+  "buildpacks": [
+    "heroku/go"
+  ]
+}
