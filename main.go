@@ -14,7 +14,7 @@ func main() {
 	}
 
 	helloHandler := func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "step 2")
+		fmt.Fprintf(w, "step 3")
 		log.Println(r.Method, r.URL.Path, r.RemoteAddr, r.UserAgent())
 	}
 	http.HandleFunc("/hello", helloHandler)
